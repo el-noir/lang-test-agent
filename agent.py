@@ -52,7 +52,7 @@ def get_llm():
     try:
         from langchain_groq import ChatGroq
         if os.getenv("GROQ_API_KEY"):
-            return ChatGroq(model="mixtral-8x7b-32768")
+            return ChatGroq(model="llama-70b-instruct-v0.1", temperature=0.7)
     except ImportError:
         pass
     
