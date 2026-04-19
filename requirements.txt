@@ -1,0 +1,10 @@
+# Core dependencies
+langgraph
+langchain
+langchain-core
+
+# LLM Providers (install the one you use)
+langchain-groq
+
+# Web search
+tavily-python
